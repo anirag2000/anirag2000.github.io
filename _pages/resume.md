@@ -1,4 +1,3 @@
-
 ---
 layout: resume
 title: Resume
