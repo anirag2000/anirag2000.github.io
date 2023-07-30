@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Anirudh's Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+	<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+	<div id="loading">
+		<div id="spinner"></div>
+	</div>
+	<div id="profile">
+		<!-- <div id="profile_img" style="background-image:url('profile.png');">
+		</div> -->
+		<div id="username">
+			<img src="profile.png" alt="User Image">
+			<span style="display: block;">Anirudh Raghavan</span>
+		</div>
+		<div id="about">
+			<p>I'm Computer Science Grad Student at 
+				<a href="https://www.rutgers.edu">Rutgers University</a>.
+				I live in New Brunswick, New Jersey. I was born and raised in India</p>
+			<p>Under the guidance of <a class="link" href="https://people.cs.rutgers.edu/~sn624/">Prof. Srinivas Narayana</a>, I am presently working on my Master's Thesis, focusing on "TCP latency measurement with a passive in-band observer."
+				
+				
+			</p>
+		
+			<p>
+				I have gained practical experience through internships at Zebra Technologies and the Indian Institute of Science, Bengaluru. Additionally, I have been awarded a fellowship from Mitacs Gloalink, Canada. </p>
+			<p>I follow everything about Economics, Cricket and Technology!</p>
+			<p>If you're here, chances are you might want to hire me. Scroll down to docs to find my <a class="link" href="https://www.anirudhraghavan.me/resume.pdf">resume</a> and <a class="link" href="http://www.anirudhraghavan.me/cv.docx" target="_blank">cover letter</a>!</p>
+	
+			
+		
+			
+		</div>
+	
+		
+		
+		<div style="justify-content: center; display: flex;" id="socials">
+
+			<div class="socials">
+				<span style="display:block;"><a href="https://www.linkedin.com/in/anisrirag/" target="_blank"
+						class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+				<span style="display:block;"><a href="https://github.com/anirag2000" target="_blank" class="socials"><i
+							class="fab fa-github"></i></a></span>
+				<span style="display:block;"><a href="mailto: anirudhraghavan2000@gmail.com" target="_blank"
+						class="socials"><i class="fas fa-envelope"></i></a></span>
+			</div>
+			<div class="sidebar__inner "></div>
+		</div>
+	</div>
+	<div id="display">
+	
+		<div id="forks" style="display: block;">
+			<h1>education.</h1>
+			<div class="projects" id="forks_section">
+				<a href="http://anirudhraghavan.me/resume.pdf/">
+					<section>
+						<div class="section_title"> Rutgers University</div>
+						<div class="about_section_OS">
+							<span style="display:block;"><b>MS in Computer Science</b>, August 2022 - May 2024</span>
+					
+						</div>
+						<div class="about_section_OS">
+							<span style="display:block;">• <u>Master's Thesis</u> - TCP latency measurement with a passive in-band observer (extended Berkley Filter)</span>
+							<br>
+							<span style="display:block;">• <u>Teaching Assistant</u> for the course: Principles of Computer Science</span>
+							<br>
+							<span style="display:block;">• <u>Courses Taken:</u> Intro to Datastructures, Designing Database Architecture, Operating System Design, Intro AI, Mathemetical Foundations of CS, Regression Analysis, Design of Internet Services 
+							</span>
+						</div>
+						<div class="bottom_section">
+							<span><i class="fas fa-book-open"></i>&nbsp;&nbsp;CGPA: 3.75/4.0</span>
+						</div>
+					</section>
+				</a>
+				<a href="http://anirudhraghavan.me/resume.pdf/">
+					<section>
+						<div class="section_title"> PES University</div>
+						<div class="about_section_OS">
+							<span style="display:block;"><b>Btech in Computer Science</b>, August 2018 - May 2022</span>
+					
+						</div>
+						<div class="about_section_OS">
+							<span style="display:block;">• <u>Capstone Project</u> - Gesture Recognition using Graph Methods</span>
+							<br>
+							<span style="display:block;">• <u>MRD Scholarship</u> scoring in the top 5% of the class</span>
+							<br>
+							<span style="display:block;">• <u>Courses Taken:</u> Intro to Linear Algebra, Machine Intelligence, Compiler Design, Graph Theory and Applications, Cloud Computing, Linux Fundamentals, Computer Networks, Data Analytics, Human Computer Interaction 
+							</span>
+						</div>
+						<div class="bottom_section">
+							<span><i class="fas fa-book-open"></i>&nbsp;&nbsp;CGPA: 8.68/10.0</span>
+						</div>
+					</section>
+				</a>
+			</div>
+		</div>
+
+
+		<div id="forks" style="display: block;">
+			<h1>experience.</h1>
+			<div class="projects">
+				<a href="http://anirudhraghavan.me/resume.pdf/"  style=" width: calc(100% - 30px);">
+					<section >
+						<div class="section_title"> Software Engineer Intern</div>
+						<div class="about_section_OS">
+							<span style="display:block;"><b>Zebra Technologies</b>, Jan 2022 - July 2022</span>
+					
+						</div>
+						<div class="about_section_OS">
+							<span style="display:block;">• Developed an open-source VCS for Android build sources, automating scanning and analysis of applications,
+								resulting in a 70% reduction in manual testing effort for individual applications in a build</span>
+							<br>
+							<span style="display:block;">• Built highly scalable RESTful APIs using Django REST framework, Docker, and Kubernetes, handling over 1
+								million requests per day and ensuring seamless integration between systems</span>
+					
+								<br>
+							<span style="display:block;">• Developed an open-source VCS for Android build sources, automating scanning and analysis of applications,
+								resulting in a 70% reduction in manual testing effort for individual applications in a build</span>
+			
+								<br>
+							<span style="display:block;">• Implemented advanced data querying and reporting techniques using SQL, generating comprehensive reports on
+								app security, permissions, and releases for each build source program, enabling data-driven decision-making and enhancing overall app quality</span>
+						
+							
+							
+						</div>
+				
+					</section>
+				</a>
+			
+
+				<a href="http://anirudhraghavan.me/resume.pdf/"  style=" width: calc(100% - 30px);">
+					<section >
+						<div class="section_title"> Undergraduate Research Assistant</div>
+						<div class="about_section_OS">
+							<span style="display:block;"><b>Indian Institute of Science</b>, Aug 2022 - Dec 2022</span>
+					
+						</div>
+						<div class="about_section_OS">
+							<span style="display:block;">• 	Developed a SpeechToText model for Boeing Inc, combining 5000 hours of unbiased dataset and generating 10%
+								more data using selected YouTube videos for enhanced training</span>
+							<br>
+							<span style="display:block;">• Optimized Mozilla’s deep speech model with CTC Beam Decoder for noisy airplane environments, achieving a 20%
+								increase in recognition performance compared to the unmodified model</span>
+					
+								<br>
+							<span style="display:block;">• Improved speech recognition accuracy in noisy airplane environments (60% SNR) by 15%, utilizing additional
+								noises in the dataset, applying DeepDenoiser for noise reduction, and conducting rigorous testing</span>
+			
+						
+						</div>
+				
+					</section>
+				</a>
+
+
+				<a href="http://anirudhraghavan.me/resume.pdf/"  style=" width: calc(100% - 30px);">
+					<section >
+						<div class="section_title"> Student Researcher</div>
+						<div class="about_section_OS">
+							<span style="display:block;"><b>Mitacs Globalink Research Internship, Canada</b>, May 2022 - Aug 2022</span>
+					
+						</div>
+						<div class="about_section_OS">
+							<span style="display:block;">• 	Revamped and deployed an innovative, personalized recommendation system for the Next Stop mobile app,
+								leveraging advanced technologies like React Native and MongoDB. This resulted in a significant increase in the
+								AUC score to 0.88</span>
+							<br>
+							<span style="display:block;">•Implemented a cutting-edge Open Street Maps Synchronization service using PHP and Cron jobs to automate the
+								updating process of offline location data. This streamlined the app’s functionality and improved efficiency</span>
+					
+								<br>
+							<span style="display:block;">• Made significant contributions to the codebase by adding over 10,000 lines of top-quality code via Git. These
+								contributions significantly improved the app’s performance and stability</span>
+			
+								
+
+				
+						</div>
+				
+					</section>
+				</a>
+			
+			
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		
+	
+		<div id="forks" style="display: block;">
+			<h1>research.</h1>
+			<div class="projects" id="forks_section">
+				<a href="" target="_blank" >
+					<section>
+						<div >
+							<span class="section_title">TCP latency measurement with a passive in-band observer</span>
+							
+						</div>
+						<div class="about_section_OS">
+							
+							<span>The purpose of this research is to design a Layer 4 Load Balancer using extended Berkley Filter, that supports a passive in-band observer. The proposed Load Balancer would be able to adapt the request-routing policy using purely local
+								observations of server performance, derived from requests traversing the Load Balancer. 
+							 </span>
+						</div>
+					</section>
+				</a>
+			</div>
+
+
+			<div class="projects" id="forks_section">
+				<a href="https://ieeexplore.ieee.org/abstract/document/9342503" target="_blank">
+					<section>
+						<div >
+							<span class="section_title">Energy Efficient Approach to Estimate Live Location Using Smartphone’s Barometer </span>
+							
+						</div>
+						<div class="about_section_OS">
+							
+							<span>GPS plays a crucial role in our daily lives, providing highly accurate positioning data on demand. However, this comes at the cost of high power consumption. This work uses a smartphone's barometer to estimate the real-time location of a user without relying on real-time GPS. We achieved an average reduction of 83.43% in power consumed by our approach while maintaining an accuracy of 83.14% and an average deviation of 10.839 m compared to real-time GPS coordinates.
+							 </span>
+							 
+						</div>
+					</section>
+				</a>
+			</div>
+
+
+
+			<div class="projects" id="forks_section">
+				<a href="www.anirudhraghavan.me/paper2.pdf" target="_blank">
+					<section>
+						<div >
+							<span class="section_title">Gesture Recognition using Graph Methods</span>
+							
+						</div>
+						<div class="about_section_OS">
+							
+							<span>The paper proposes a new and under-explored approach that involves graph based methods for seed marking in image segmentation in the pre-processing phase to separate the hand from it's background, further it is fed as the input to ensemble models to predict and classify the gesture being performed, while allowing the users to be in their natural conditions.
+								 
+							 </span>
+							
+						</div>
+					</section>
+				</a>
+			</div>
+
+
+
+		</div>
+
+<!-- 
+
+		<div id="work">
+			<h1>open source.</h1>
+			<div class="projects" id="work_section">
+				<a href="https://github.com/facebook/react-native" target="_blank">
+					<section>
+						<div class="section_title">facebook/react-native</div>
+						<div class="about_section_OS">
+							<span style="display:block;">• Contributed in migrating ImageStore native module into the
+								new TurboModule System architecture of the repository(v59)</span>
+							<br>
+							<span style="display:block;">• Collaborated with core contributors to comprehend the code
+								base and get peer feedback on the submitted work.</span>
+						</div>
+						<div class="bottom_section">
+							<span><i class="fas fa-star"></i>&nbsp; 99K</span>
+							<span><i class="fas fa-code-branch"></i>&nbsp; 21.4K</span>
+						</div>
+					</section>
+				</a>
+			
+				
+			</div> -->
+
+
+
+
+
+
+
+
+		<div id="work">
+			<h1>projects.</h1>
+			<div class="projects" id="work_section">
+				<a href="https://nextstop.vipresearch.ca/">
+					<section>
+						<div class="section_title">
+							<span class="alignleft">Next Stop Recommender</span>
+							<span class="alignright">→</span>
+						</div>
+						<div class="about_section">
+							<span style="display:block;">An android application that recommends the next best place to visit based on your previous location history</span>
+						</div>
+					</section>
+				</a>
+				<a href="https://github.com/RahulRavishankar/Eyantra2018">
+					<section>
+						<div class="section_title">
+							<span class="alignleft">Thirsty Crow Robot</span>
+							<span class="alignright">→</span>
+						</div>
+						<div class="about_section">
+							<span style="display:block;">A robot based on ATmega2560 that completes a series of task narrating the story of Thirsty Crow.</span>
+						</div>
+					</section>
+				</a>
+				<a href="https://github.com/anirag2000/notes">
+					<section>
+						<div class="section_title">
+							<span class="alignleft">PESU Notes</span>
+							<span class="alignright">→</span>
+						</div>
+						<div class="about_section">
+							<span style="display:block;">A Mobile Application that can be used to share notes amoung University students.</span>
+						</div>
+					</section>
+				</a>
+				<a href="https://github.com/anirag2000/Exercise_Monitor">
+					<section>
+						<div class="section_title">
+							<span class="alignleft">Excercise Monitor</span>
+							<span class="alignright">→</span>
+						</div>
+						<div class="about_section">
+							<span style="display:block;">A mobile Application that mobile camera to monitor pushups </span>
+						</div>
+					</section>
+				</a>
+				<a href="https://mobile-space.github.io/spiral/">
+					<section>
+						<div class="section_title">
+							<span class="alignleft">Groupy - A private Social Network</span>
+							<span class="alignright">→</span>
+						</div>
+						<div class="about_section">
+							<span style="display:block;">A Point of Sale mobile application that accepts crypto
+								currencies as
+								payments </span>
+						</div>
+					</section>
+				</a>
+				
+			</div>
+		</div>
+		
+		<div id="footer">
+			<span>Anirudh Srinivasa Raghavan - Updated July 30, 2023</span>
+		</div>
+	</div>
+	<script type="text/javascript">
+		setTimeout(function () {
+			document.getElementById("loading").classList.add("animated");
+			document.getElementById("loading").classList.add("fadeOut");
+			setTimeout(function () {
+				document.getElementById("loading").classList.remove("animated");
+				document.getElementById("loading").classList.remove("fadeOut");
+				document.getElementById("loading").style.display = "none";
+			}, 800);
+		}, 1500);
+		$.getJSON("blog.json", function (blog) {
+			blog = blog || [];
+			if (blog.length == 0) {
+				return (document.getElementById("blog_section").style.display =
+					"none");
+			}
+			for (var i = 0; i < blog.length; i++) {
+				$("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+			}
+		}).fail(function () {
+			return (document.getElementById("blog_section").style.display = "none");
+		});
+	</script>
+
+	<script>
+		const magicProjectsGrid = new MagicGrid({
+			container: "#work_section",
+			animate: false,
+			gutter: 30, // default gutter size
+			static: true,
+			useMin: false,
+			maxColumns: 2,
+			useTransform: true
+		});
+
+		const magicForksGrid = new MagicGrid({
+			container: "#forks_section",
+			animate: false,
+			gutter: 30, // default gutter size
+			static: true,
+			useMin: false,
+			maxColumns: 2,
+			useTransform: true
+		});
+
+		$("document").ready(() => {
+			magicProjectsGrid.listen();
+			magicForksGrid.listen();
+		});
+	</script>
+
+
+</body>
+
+</html>
